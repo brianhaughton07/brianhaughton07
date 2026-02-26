@@ -1,0 +1,175 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Uncomment if you want to ignore all notebook outputs (recommended for large outputs)
+# *.ipynb
+
+# =============================================================================
+# Data Files
+# =============================================================================
+# Raw and processed data — never commit data to a portfolio repo
+# Document data sources and download instructions in your README instead
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Common data formats
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+*.json.gz
+
+# Large or binary data — exceptions can be added per-repo with !filename.csv
+# If a small sample CSV is intentional, override with: !data/sample/example.csv
+
+# =============================================================================
+# Model Artifacts
+# =============================================================================
+models/
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.sav
+checkpoints/
+runs/
+
+# =============================================================================
+# Credentials & Secrets — CRITICAL
+# =============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secrets.yml
+config/secrets*
+credentials.json
+token.json
+service_account*.json
+*_credentials*
+*_secret*
+api_keys*
+
+# =============================================================================
+# IDE & Editor
+# =============================================================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# =============================================================================
+# OS
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =============================================================================
+# Logs & Temporary Files
+# =============================================================================
+*.log
+*.out
+*.tmp
+*.temp
+logs/
+tmp/
+
+# =============================================================================
+# MLflow / Experiment Tracking
+# =============================================================================
+mlruns/
+mlartifacts/
+wandb/
+.neptune/
+
+# =============================================================================
+# Documentation Build
+# =============================================================================
+docs/_build/
+docs/site/
+site/

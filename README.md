@@ -19,7 +19,7 @@ I'm returning to my first love — data science and machine learning — with th
 ## What I Bring
 
 - **Mathematical depth** — M.S. in Mathematics; comfortable with the theory behind the methods, not just the API calls
-- **Production engineering instincts** — 30 years writing systems-level and server-side code means I think about reliability, reproducibility, and maintainability by default
+- **Production engineering instincts** — 10+ years writing systems-level and server-side code means I think about reliability, reproducibility, and maintainability by default
 - **Business domain breadth** — hands-on experience across financial services, automotive manufacturing, and healthcare payer operations translates directly into feature engineering intuition and stakeholder communication
 - **The bridge** — I've spent a career translating between technical teams and business leadership; I know how to frame a model's output in terms of decisions, not just metrics
 
